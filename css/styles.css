@@ -52,7 +52,6 @@ body.active {
 }
 
 header {
-    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -249,7 +248,7 @@ footer {
     position: relative;
     display: inline-block;
     font-size: 1em;
-    font-weight: 200px;
+    font-weight: 200;
     margin: 0 25px;
 }
 
@@ -532,7 +531,7 @@ footer {
 
 .project {
     position: relative;
-    max-width: 900px;
+    /*max-width: 900px;*/
     margin: 0 auto 30px auto;
     overflow: hidden;
     background: #fff;
@@ -545,9 +544,9 @@ footer {
 
 .project-info {
     position: absolute;
-    top: 50%;
+    top: 10%;
     transform: translateY(-50%);
-    margin-left: 300px;
+    margin-left: 50px;
     padding: 15px;
     text-align: center;
 }
